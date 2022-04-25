@@ -10,7 +10,7 @@ public class example {
     public static void main(String[] args) {  
         
     // declaration and instantiation of objects/variables  
-    System.setProperty("webdriver.chrome.driver", "C:\\Users\\GAURAV\\Downloads\\chromedriver_win32 (1)\\chromedriver.exe");  
+    System.setProperty("webdriver.chrome.driver", "C:\\Program Files\\chromedriver_win32\\chromedriver.exe");  
     WebDriver driver=new ChromeDriver();  
       
 // Launch website  
