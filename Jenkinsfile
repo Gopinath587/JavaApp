@@ -35,10 +35,5 @@ pipeline {
              echo "Deploy successful";
             }
         }
-        stage ('Monitor') { 
-           steps{ 
-             echo "Now you can monitor!";
-           }
-        }
     }
 }
